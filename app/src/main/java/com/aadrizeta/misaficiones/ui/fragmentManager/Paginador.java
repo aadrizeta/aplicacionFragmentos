@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import com.aadrizeta.misaficiones.fr.aficiones.Comer;
 import com.aadrizeta.misaficiones.fr.aficiones.Dormir;
 
+
 public class Paginador extends FragmentPagerAdapter {
 
     private final Context mContext;
