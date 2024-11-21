@@ -13,12 +13,19 @@
         android:theme="@style/Theme.MisAficiones"
         tools:targetApi="31">
         <activity
+            android:name=".Favoritos"
+            android:exported="false"
+            android:theme="@style/Theme.Favoritos">
+
+        </activity>
+        <activity
             android:name=".Aficiones"
             android:exported="true"
             android:label="@string/title_activity_aficiones"
             android:theme="@style/Theme.MisAficiones">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -10,11 +10,11 @@ import com.aadrizeta.misaficiones.fr.aficiones.Comer;
 import com.aadrizeta.misaficiones.fr.aficiones.Dormir;
 
 
-public class Paginador extends FragmentPagerAdapter {
+public class PaginadorAficiones extends FragmentPagerAdapter {
 
     private final Context mContext;
 
-    public Paginador(Context context, FragmentManager fm) {
+    public PaginadorAficiones(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }

@@ -3,9 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/favButton"
+        android:id="@+id/addFavButton"
         android:title="FAV"
-        android:icon="@drawable/baseline_star_24"
+        android:icon="@drawable/baseline_star_outline_24"
         app:showAsAction="always"
 
         />
@@ -18,4 +18,9 @@
         android:id="@+id/myCodeButton"
         android:title="Mi codigo"
         />
+    <item
+        android:id="@+id/showFavButton"
+        android:title="Mis favoritos"
+        />
+
 </menu>
